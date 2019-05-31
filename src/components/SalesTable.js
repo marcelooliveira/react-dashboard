@@ -31,7 +31,7 @@ export const SalesTable = ({ tableData } ) => {
 				
     return (
         <TablePanel key={config.chartKey} title="Recent Sales">
-			<table class="table">
+			<table className="table">
 			  <thead>
 				<tr>
 				  <th>Client</th>
